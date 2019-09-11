@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'WebApp';
+
+  openNav() {
+    document.getElementById('mySidenav').style.width = '50%';
+  }
+
+  closeNav() {
+    document.getElementById('mySidenav').style.width = '0';
+  }
+
 }
+
